@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>利用規約 — Uindustry | Sato's company</title>
+<meta name="description" content="Uindustry のUI部品の利用規約。クレジットを残せば無料、外すには有料ライセンスが必要です。">
+<meta name="theme-color" content="#0B0B0B">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://kentaikan0325-alt.github.io/uindustry/terms.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230B0B0B'/%3E%3Cpath d='M9 8v10a7 7 0 0 0 14 0V8' fill='none' stroke='%23ECECE6' stroke-width='3'/%3E%3C/svg%3E">
+<style>
+:root {
+  --bg: #0B0B0B;
+  --panel: #141414;
+  --ink: #ECECE6;
+  --gray: #8F8F89;
+  --line: #262626;
+  --line-strong: #4A4A47;
+  --sans: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --gutter: 40px;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+a { color: var(--ink); text-underline-offset: 3px; }
+.label {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+.wrap { max-width: 860px; margin: 0 auto; padding: 0 var(--gutter); }
+header { padding: 64px 0 40px; border-bottom: 1px solid var(--line); }
+.back { text-decoration: none; }
+.back:hover { color: var(--ink); }
+h1 { font-size: clamp(32px, 5vw, 56px); font-weight: 600; line-height: 1.2; margin: 28px 0 0; }
+.meta { margin: 24px 0 0; }
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  margin: 40px 0 0;
+}
+.summary div { background: var(--bg); padding: 22px 20px 24px; }
+.summary .label { margin: 0 0 12px; }
+.summary p:last-child { margin: 0; font-size: 14px; line-height: 1.8; }
+
+main { padding: 16px 0 80px; }
+section { padding: 36px 0; border-bottom: 1px solid var(--line); }
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 16px;
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+}
+h2 .label { flex: none; }
+p, li { font-size: 15px; line-height: 1.95; color: #CFCFC9; }
+p { margin: 0 0 12px; }
+ol, ul { margin: 0; padding-left: 1.4em; }
+li { margin: 0 0 6px; }
+code {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  padding: 2px 6px;
+}
+pre {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  line-height: 1.7;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  padding: 16px 18px;
+  margin: 14px 0;
+  overflow-x: auto;
+  white-space: pre;
+  color: var(--ink);
+}
+.pending {
+  border: 1px solid var(--line-strong);
+  padding: 16px 18px;
+  margin: 14px 0 0;
+  font-size: 14px;
+}
+footer { padding: 32px 0 56px; }
+@media (max-width: 640px) {
+  :root { --gutter: 20px; }
+  header { padding-top: 44px; }
+  .summary { grid-template-columns: 1fr; }
+  h2 { flex-direction: column; gap: 8px; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <a class="back label" href="./">← Uindustry</a>
+  <h1>利用規約</h1>
+  <p class="meta label">Terms of use / 制定 2026-11-11</p>
+
+  <div class="summary" aria-label="要点">
+    <div>
+      <p class="label">Free</p>
+      <p>クレジットを残せば、商用でも無料で使える。</p>
+    </div>
+    <div>
+      <p class="label">License</p>
+      <p>クレジットを外すには、有料ライセンスが必要。</p>
+    </div>
+    <div>
+      <p class="label">Never</p>
+      <p>部品集としての再配布・転売、自作と偽ることは不可。</p>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<section>
+  <h2><span class="label">01</span>この規約について</h2>
+  <p>この規約は、Sato's company（以下「運営者」）が Uindustry（以下「本サイト」）で配布するUI部品の利用条件を定めるものです。部品のコードをコピーまたは利用した時点で、この規約に同意したものとみなします。</p>
+</section>
+
+<section>
+  <h2><span class="label">02</span>対象となる部品</h2>
+  <ol>
+    <li>この規約の対象は、本サイトで <strong>ORIGINAL</strong> と表示された部品（以下「オリジナル部品」）です。コードの先頭に Uindustry のクレジットが入っています。</li>
+    <li>ORIGINAL の表示がない部品（500番台）は、第三者が MIT License で公開したものを収録しています。これらには本サイト下部に掲載した MIT License が適用され、第03条から第06条は適用されません。</li>
+  </ol>
+</section>
+
+<section>
+  <h2><span class="label">03</span>無料で使える範囲</h2>
+  <p>次の条件をすべて守る限り、オリジナル部品を個人・法人、商用・非商用を問わず無料で利用できます。色や寸法、文言などの改変も自由です。</p>
+  <ol>
+    <li>コードの先頭にあるクレジット（下の形式のコメント）を、HTML と CSS の両方に残すこと。</li>
+    <li>クレジットの文言を書き換えないこと。</li>
+  </ol>
+<pre>&lt;!-- Uindustry BTN-001 | (c) 2026 Sato's company | … --&gt;
+/* Uindustry BTN-001 | (c) 2026 Sato's company | … */</pre>
+  <p>画面上に Uindustry の名前を表示する必要はありません。ソースコード内のコメントが残っていれば足ります。<code>uind-</code> で始まるクラス名は変更してかまいません。</p>
+  <p>ビルド時の圧縮でコメントが自動的に取り除かれる場合は、圧縮前のソースにクレジットが残っていれば条件を満たすものとします。</p>
+</section>
+
+<section>
+  <h2><span class="label">04</span>有料ライセンス（クレジットの削除）</h2>
+  <p>有料ライセンスを購入すると、オリジナル部品からクレジットを取り除いて利用できます。</p>
+  <ol>
+    <li>ライセンスは購入者本人（法人の場合はその法人）に与えられます。第三者への譲渡・貸与はできません。</li>
+    <li>購入者が受託制作した成果物に組み込み、その依頼主に納品することはできます。</li>
+    <li>ライセンスの対象は、購入時点で本サイトに掲載されているオリジナル部品と、契約の種類に応じてその後追加される部品です。範囲は購入ページに記載します。</li>
+    <li>有料ライセンスを購入しても、第05条の禁止事項は引き続き適用されます。</li>
+  </ol>
+  <p class="pending">有料ライセンスの価格・購入方法・返金条件は準備中です。販売を始める際に、このページと「特定商取引法に基づく表記」に掲載します。</p>
+</section>
+
+<section>
+  <h2><span class="label">05</span>禁止事項</h2>
+  <p>無料・有料を問わず、次の行為はできません。</p>
+  <ol>
+    <li>オリジナル部品を、部品集・テンプレート集・UIキットなどの素材として再配布または販売すること（改変したものを含みます）。</li>
+    <li>オリジナル部品を、自分が制作した素材であるかのように公開・出品すること。</li>
+    <li>有料ライセンスなしでクレジットを取り除くこと、または書き換えること。</li>
+    <li>本サイトの部品を機械的に一括取得し、同種のサービスの素材として利用すること。</li>
+    <li>法令または公序良俗に反する目的で利用すること。</li>
+  </ol>
+  <p>自分や依頼主のウェブサイト・アプリなどの制作物に組み込んで公開・販売することは、再配布にはあたりません。</p>
+</section>
+
+<section>
+  <h2><span class="label">06</span>権利の帰属</h2>
+  <p>オリジナル部品の著作権は運営者に帰属します。この規約は利用を許諾するものであり、著作権を譲渡するものではありません。</p>
+</section>
+
+<section>
+  <h2><span class="label">07</span>免責</h2>
+  <ol>
+    <li>部品は現状のまま提供されます。特定の目的への適合、動作環境での表示、不具合がないことを保証しません。</li>
+    <li>部品の利用によって生じた損害について、運営者は故意または重大な過失がある場合を除き、責任を負いません。</li>
+    <li>運営者は、部品の内容の変更や配布の終了を予告なく行うことがあります。</li>
+  </ol>
+</section>
+
+<section>
+  <h2><span class="label">08</span>違反があった場合</h2>
+  <p>この規約に違反した場合、利用の許諾はその時点で終了します。運営者は、該当する部品の利用停止や削除を求めることができます。</p>
+</section>
+
+<section>
+  <h2><span class="label">09</span>規約の変更・準拠法</h2>
+  <ol>
+    <li>運営者はこの規約を変更することがあります。変更後の規約は、このページに掲載した時点から適用されます。すでに購入された有料ライセンスの条件が、購入者の不利益に変更されることはありません。</li>
+    <li>この規約は日本法に準拠します。</li>
+  </ol>
+</section>
+
+</main>
+
+<footer>
+  <p class="label">Sato's company</p>
+</footer>
+
+</div>
+</body>
+</html>
